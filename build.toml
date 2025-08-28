@@ -4,7 +4,7 @@ repo = 'https://github.com/flutter/flutter'
 path = './flutter'
 
 [ndk]
-api = 26 # >=26
+api = 28 # >=26
 # unset to use ANDROID_NDK from env
 # path = 'path/to/ndk'
 
