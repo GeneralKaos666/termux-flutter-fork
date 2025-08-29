@@ -201,6 +201,7 @@ class Build:
         self.config()
         self.clone()
         self.sync()
+        subprocess.run(['bash', 'patch_gn_android_log.sh'], check=True)
 
         for arch in self.arch:
             self.sysroot(arch=arch)
