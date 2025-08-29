@@ -18,7 +18,7 @@ jobs:
     - name: install python requirements
       run: pip install -r requirements.txt
 
-    - name: SSH
+    - name: python build.py
       uses: csexton/debugger-action@master
 
     - name: upload
