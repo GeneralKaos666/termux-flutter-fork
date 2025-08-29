@@ -18,8 +18,8 @@ jobs:
     - name: install python requirements
       run: pip install -r requirements.txt
 
-    - name: python build.py
-      uses: csexton/debugger-action@master
+    - name: building
+      run: python build.py
 
     - name: upload
       uses: actions/upload-artifact@v4
