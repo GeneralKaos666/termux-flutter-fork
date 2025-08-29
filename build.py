@@ -143,7 +143,7 @@ class Build:
             '--no-backtrace',
             '--clang',
             '--lto',
-            '--llog
+            '--llog'
             '--no-enable-unittests',
             '--no-build-embedder-examples',
             '--no-prebuilt-dart-sdk',
